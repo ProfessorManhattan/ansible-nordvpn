@@ -47,7 +47,35 @@ description = "Installs NordVPN on macOS and Windows"
 documentation = "https://megabyte.space/docs/ansible/roles"
 homepage = "https://megabyte.space"
 include = ["CHANGELOG.md", "LICENSE"]
-keywords = [""]
+keywords = [
+  "ansible",
+  "ansible-role",
+  "archlinux",
+  "centos",
+  "debian",
+  "doctor",
+  "encryption",
+  "fedora",
+  "install",
+  "installdoc",
+  "installdoctor",
+  "macos",
+  "mblabs",
+  "megabytelabs",
+  "molecule",
+  "nord",
+  "nordvpn",
+  "openvpn",
+  "privacy",
+  "professormanhattan",
+  "role",
+  "security",
+  "ubuntu",
+  "vpn",
+  "washingtondc",
+  "windows",
+  "wireguard"
+]
 license = "MIT"
 name = "ansible-nordvpn"
 readme = "README.md"

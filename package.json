@@ -74,11 +74,14 @@
     "node": ">=14.18.0"
   },
   "publishConfig": {
-    "@megabyte:registry": "https://gitlab.com/api/v4/projects//packages/npm/",
+    "@megabyte:registry": "https://gitlab.com/api/v4/projects/34403843/packages/npm/",
     "access": "public"
   },
   "blueprint": {
     "description": "Installs NordVPN on macOS and Windows",
+    "github_id": "R_kgDOG--EoQ",
+    "gitlab_group_id": "12261670",
+    "gitlab_project_id": "34403843",
     "group": "ansible",
     "name": "NordVPN",
     "overview": "[NordVPN](https://nordvpn.com/) is a virtual private network service provider. It has desktop applications for Windows, macOS, and Linux, mobile apps for Android and iOS, as well as an application for Android TV. Manual setup is available for wireless routers, NAS devices and other platforms.",
@@ -88,10 +91,7 @@
     },
     "slug": "nordvpn",
     "subgroup": "role",
-    "title": "NordVPN",
-    "github_id": "R_kgDOG--EoQ",
-    "gitlab_project_id": "34403843",
-    "gitlab_group_id": "12261670"
+    "title": "NordVPN"
   },
   "changelog": {
     "displayTypes": [
