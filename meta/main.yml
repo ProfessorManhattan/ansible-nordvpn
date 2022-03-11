@@ -1,0 +1,41 @@
+---
+galaxy_info:
+  role_name: nordvpn
+  author: ProfessorManhattan
+  description: Installs NordVPN on macOS and Windows
+  company: Megabyte Labs
+  issue_tracker_url: https://gitlab.com/megabyte-labs/ansible-roles/nordvpn/-/issues
+  license: license (MIT)
+  min_ansible_version: 2.1
+  platforms:
+    - name: Mac
+      versions:
+        - all
+    - name: Windows
+      versions:
+        - all
+  galaxy_tags:
+    - ansible
+    - encryption
+    - installdoc
+    - installdoctor
+    - macos
+    - mblabs
+    - megabytelabs
+    - molecule
+    - nord
+    - nordvpn
+    - openvpn
+    - privacy
+    - professormanhattan
+    - role
+    - security
+    - ubuntu
+    - vpn
+    - washingtondc
+    - windows
+    - wireguard
+  namespace: professormanhattan
+dependencies:
+  - role: homebrew
+    when: ansible_os_family == "Darwin"
