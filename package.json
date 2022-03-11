@@ -88,7 +88,10 @@
     },
     "slug": "nordvpn",
     "subgroup": "role",
-    "title": "NordVPN"
+    "title": "NordVPN",
+    "github_id": "R_kgDOG--EoQ",
+    "gitlab_project_id": "34403843",
+    "gitlab_group_id": "12261670"
   },
   "changelog": {
     "displayTypes": [

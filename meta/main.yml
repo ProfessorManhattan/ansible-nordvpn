@@ -1,6 +1,7 @@
 ---
 galaxy_info:
   role_name: nordvpn
+  namespace: professormanhattan
   author: ProfessorManhattan
   description: Installs NordVPN on macOS and Windows
   company: Megabyte Labs
@@ -35,7 +36,6 @@ galaxy_info:
     - washingtondc
     - windows
     - wireguard
-  namespace: professormanhattan
 dependencies:
   - role: homebrew
     when: ansible_os_family == "Darwin"
