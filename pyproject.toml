@@ -106,7 +106,7 @@ semantic = [
 
 [tool.poetry.urls]
 "Bug Tracker" = "https://gitlab.com/megabyte-labs/ansible-roles/nordvpn/-/issues"
-"GitHub" = "https://github.com/ProfessorManhattan/ansible-nordvpn"
+"GitHub" = "https://github.com/megabyte-labs/ansible-nordvpn"
 "GitLab" = "https://gitlab.com/megabyte-labs/ansible-roles/nordvpn"
 "Open Collective" = "https://opencollective.com/megabytelabs"
 "Patreon" = "https://www.patreon.com/ProfessorManhattan"
