@@ -39,13 +39,13 @@
   "dependencies": {},
   "optionalDependencies": {},
   "devDependencies": {
-    "@commitlint/config-conventional": "latest",
     "eslint-config-strict-mode": "latest",
     "git-cz-emoji": "latest",
-    "handlebars-helpers": "latest",
     "prettier-config-sexy-mode": "latest",
     "semantic-release-config": "latest",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "@commitlint/config-conventional": "latest",
+    "handlebars-helpers": "latest"
   },
   "keywords": [
     "ansible",
@@ -92,7 +92,7 @@
     "name": "NordVPN",
     "overview": "[NordVPN](https://nordvpn.com/) is a virtual private network service provider. It has desktop applications for Windows, macOS, and Linux, mobile apps for Android and iOS, as well as an application for Android TV. Manual setup is available for wireless routers, NAS devices and other platforms.",
     "repository": {
-      "github": "https://github.com/ProfessorManhattan/ansible-nordvpn",
+      "github": "https://github.com/megabyte-labs/ansible-nordvpn",
       "gitlab": "https://gitlab.com/megabyte-labs/ansible-roles/nordvpn"
     },
     "slug": "nordvpn",
@@ -110,9 +110,7 @@
     "showAuthor": true
   },
   "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ],
+    "extends": [],
     "helpUrl": "https://megabyte.space/docs/contributing/commits"
   },
   "eslintConfig": {
