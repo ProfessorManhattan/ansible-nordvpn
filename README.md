@@ -64,7 +64,7 @@
   </a>
 </div>
 
-> </br><h4 align="center">**An Ansible role that installs NordVPN on macOS and Windows**</h4></br>
+> <br/><h4 align="center">**An Ansible role that installs NordVPN on macOS and Windows**</h4><br/>
 
 <!--TERMINALIZE![terminalizer_title](https://gitlab.com/megabyte-labs/ansible-roles/nordvpn* **github**: /raw/master/docs/demo.gif
 * **gitlab**: /-/raw/master/docs/demo.gif)TERMINALIZE-->
